@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishav Kumar - Robotics Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Rishav Kumar</h1>
+            <p>B.Tech in Automation and Robotics</p>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#" data-modal="experienceModal"><i class="fas fa-briefcase"></i> Experience</a></li>
+                <li><a href="#" data-modal="educationModal"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                <li><a href="#" data-modal="projectsModal"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="#" data-modal="skillsModal"><i class="fas fa-code"></i> Skills</a></li>
+                <li><a href="#" data-modal="contactModal"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <img src="1681485205097.jpeg" alt="Rishav Kumar">
+                    <div class="about-text">    
+                        <p>Enthusiastic robotics student with a passion for coding and a keen interest in the intricate workings of machines. Proficient in various programming languages and experienced in developing software solutions for robotics applications. Eager to apply technical skills and creativity to contribute effectively in the field of robotics and automation. Committed to continuous learning and staying updated with emerging technologies. A dedicated individual who thrives on challenges and enjoys collaborating in team environments.</p>
+                        <p>Connect with me on LinkedIn: <a href="https://www.linkedin.com/in/kmrshav" target="_blank"><i class="fab fa-linkedin"></i> linkedin.com/in/kmrshav</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Modals -->
+        <div id="experienceModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Experience</h2>
+                <div class="experience-item">
+                    <h3>Indian Railway</h3>
+                    <p><strong>Role:</strong> Trainee</p>
+                    <p><strong>Duration:</strong> 1 Month Summer Training</p>
+                    <p>I completed my training in the electrical lab with Indian Railways, Samastipur Division, where I gained hands-on experience and comprehensive knowledge of the electrical systems integral to railway operations. This training involved working with power distribution systems, signaling equipment, and locomotive electrification. I learned to troubleshoot, repair, and maintain these electrical components to ensure their efficient and safe functioning. This experience has equipped me with essential technical skills and a thorough understanding of the electrical infrastructure critical to the railway system.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Internshala Training</h3>
+                    <p><strong>Role:</strong> Training</p>
+                    <p>I completed my training in machine learning through Internshala, where I gained practical and theoretical knowledge on various aspects of machine learning. The program covered essential topics such as data preprocessing, regression, classification, clustering, and neural networks. I also worked on hands-on projects that involved real-world datasets, which helped in solidifying my understanding and application of machine learning concepts. This training has equipped me with the skills necessary to build and deploy machine learning models effectively.</p>
+                </div>
+            </div>
+        </div>
+        <div id="educationModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Education</h2>
+                <div class="education-item">
+                    <h3>Guru Gobind Singh Indraprastha University</h3>
+                    <p>B.Tech In Automation and Robotics - 2022-25</p>
+                    <p>I am pursuing my B.Tech in Automation and Robotics from Guru Gobind Singh Indraprastha University, spanning from 2022 to 2025. Automation and Robotics involve the design and creation of intelligent systems and machines capable of performing tasks autonomously, enhancing efficiency and precision in various industries.</p>
+                </div>
+                <div class="education-item">
+                    <h3>Rani Jhansi Laxmi Bai Government Polytechnic</h3>
+                    <p>Polytechnic (Mech) - 2019-22</p>
+                    <p>I completed my training in machine learning through Internshala, where I gained practical and theoretical knowledge on various aspects of machine learning. The program covered essential topics such as data preprocessing, regression, classification, clustering, and neural networks. I also worked on hands-on projects that involved real-world datasets, which helped in solidifying my understanding and application of machine learning concepts. This training has equipped me with the skills necessary to build and deploy machine learning models effectively.</p>
+                </div>
+            </div>
+        </div>
+        <div id="projectsModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Projects</h2>
+                <div class="project-item">
+                    <h3>Smart door using Arduino Uno</h3>
+                    <p>Creating a smart door using an Arduino Uno involves integrating several components to enable features like remote locking/unlocking, monitoring door status, and possibly even motion detection. The essential components needed for this project include an Arduino Uno, a servo motor or electronic lock, a magnetic door sensor or reed switch, a PIR motion sensor (optional), a Wi-Fi module such as the ESP8266, a push button for manual override, LEDs for status indication, a breadboard, jumper wires, a power supply appropriate for the components, and resistors if necessary. The setup begins with connecting the servo motor to the Arduino, with its power wire connected to the 5V pin, ground wire to a GND pin, and signal wire to a digital PWM pin like pin 9. The magnetic door sensor connects to a digital pin (e.g., pin 2) and GND, and may require a pull-up resistor if it is a normally open sensor. If incorporating a PIR motion sensor, its VCC and GND pins connect to 5V and GND on the Arduino, and its output pin to a digital pin such as pin 3. The ESP8266 Wi-Fi module connects to the Arduino using appropriate logic levels, with VCC connected to 3.3V, GND to GND, TX to RX (pin 0), and RX to TX (pin 1). The push button connects one leg to a digital pin like pin 4 and the other leg to GND, with a pull-up resistor if needed. LEDs for status indication connect via current-limiting resistors to digital pins and GND. The Arduino code initializes these components and monitors the door sensor, motion sensor, and push button states to control the servo motor, indicating door status with LEDs. For remote control, the ESP8266 can be used to connect to a Wi-Fi network and create a web server or MQTT client. Additional features like notifications via IFTTT and enhanced security through encryption and authentication can be integrated to improve functionality and security. Testing each component individually before full integration is crucial for a smooth setup and operation of the smart door system.</p>
+                    <p><a href="#">Link to project</a></p>
+                </div>
+                <div class="project-item">
+                    <h3>Smoke detection system using Arduino</h3>
+                    <p>Creating a smoke detection system using an Arduino involves integrating an MQ-2 smoke sensor to detect smoke levels and trigger alarms or notifications. The essential components for this project include an Arduino Uno, an MQ-2 smoke sensor, a buzzer for audible alerts, an LED for visual indication, resistors if necessary, a breadboard, jumper wires, and a suitable power supply. Begin by connecting the MQ-2 smoke sensor: the VCC pin to the Arduino's 5V, GND to GND, and the analog output (A0) to an analog input pin (e.g., A0) on the Arduino. Next, connect the buzzer by attaching its positive leg to a digital pin (e.g., pin 8) and its negative leg to GND. Similarly, connect the LED by attaching its anode (long leg) to a digital pin (e.g., pin 7) through a current-limiting resistor (e.g., 220Ω) and its cathode (short leg) to GND. The Arduino code initializes these components and continuously reads the sensor value from the MQ-2. If the sensor value exceeds a predefined threshold (e.g., 300), the system activates the LED and buzzer to indicate smoke detection. To enhance the system, integrate an ESP8266 Wi-Fi module to send remote notifications via platforms like IFTTT or Blynk, and consider adding an LCD or OLED display for real-time smoke level readings. Calibration of the MQ-2 sensor according to the manufacturer's guidelines can improve accuracy. Ensuring a stable power supply, possibly with battery backup, is crucial for reliable operation. This setup provides a foundational smoke detection system that can be expanded with additional features and network capabilities for improved functionality. Regular testing and proper placement in critical areas are essential for effective smoke detection.</p>
+                    <p><a href="#">Link to project</a></p>
+                </div>
+                <div class="project-item">
+                    <h3>Smart irrigation system using Arduino</h3>
+                    <p>Creating a smart irrigation system using Arduino involves automating the watering process based on soil moisture levels. Essential components include an Arduino Uno, soil moisture sensor, relay module, water pump or solenoid valve, and optionally, a DHT11 or DHT22 sensor for temperature and humidity monitoring. Connect the soil moisture sensor to an analog input pin on the Arduino, and the relay module to a digital pin to control the water pump. Optionally, connect the DHT sensor to monitor environmental conditions. The Arduino code reads the soil moisture and environmental data, activating the water pump when the soil is dry. Additional features can include Wi-Fi connectivity for remote monitoring, an RTC module for scheduling, solar power for sustainability, multiple irrigation zones, and weather integration to prevent overwatering. Ensure safe power supply connections to prevent electrical hazards.</p>
+                    <p><a href="#">Link to project</a></p>
+                </div>
+                <div class="project-item">
+                    <h3>UAV scenario using UAV Toolbox and Simulink in MATLAB</h3>
+                    <p>To simulate a UAV scenario using UAV Toolbox and Simulink in MATLAB, initialize your UAV scenario with meshes and `uavPlatform` objects, and add a ground mesh and cylindrical obstacles for lidar scanning. Create two UAV platforms with initial positions and orientations. Attach a lidar sensor to the first UAV platform using `uavSensor`. In Simulink, open the `UAVScenarioModel.slx` and configure the UAV Scenario Configuration block with your scenario. Use the UAV Scenario Motion Write block to update the first UAV's Motion bus, and the UAV Scenario Motion Read block to read the motion data. Use the UAV Scenario Get Transform block to get the transformation matrix between the UAVs. Connect the UAV Scenario Lidar block to a UAV Scenario Scope block for visualization, and run the model to animate and visualize the UAV's motion and lidar readings.</p>
+                    <p><a href="#">Link to project</a></p>
+                </div>
+            </div>
+        </div>
+        <div id="skillsModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li><i class="fab fa-html5"></i> HTML</li>
+                    <li><i class="fab fa-css3-alt"></i> CSS</li>
+                    <li><i class="fab fa-js-square"></i> JavaScript</li>
+                    <li><i class="fas fa-calculator"></i> MatLab</li>
+                    <li><i class="fas fa-cube"></i> SolidWorks</li>
+                    <li><i class="fas fa-code"></i> C++ With DSA</li>
+                    <li><i class="fas fa-microchip"></i> Embedded C</li>
+                    <li><i class="fab fa-python"></i> Python</li>
+                    <li><i class="fas fa-robot"></i> ML</li>
+                </ul>
+            </div>
+        </div>
+        <div id="contactModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Contact</h2>
+                <ul class="contact-details">
+                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kmrshav" target="_blank"><i class="fab fa-linkedin"></i> linkedin.com/in/kmrshav</a></li>
+                    <li><strong>Email:</strong> <a href="mailto:rishav.00819012022@ipu.ac.in"><i class="fas fa-envelope"></i> rishav.00819012022@ipu.ac.in</a></li>
+                    <li><strong>Phone:</strong> <i class="fas fa-phone"></i> +91 6201529834</li>
+                    <li><strong>Address:</strong> <i class="fas fa-map-marker-alt"></i> Chhatarpur, New Delhi-110074</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Rishav Kumar</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
