@@ -1,2 +1,2 @@
-# my_resume
+# RishavKumar_USAR
 My Resume for Placement
